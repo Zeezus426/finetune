@@ -1,0 +1,99 @@
+{"input_text": "What is the capital of Canada?", "output_text": "{\"tool\":\"search_duckduckgo\",\"input\":{\"query\":\"capital of Canada\"}}"}
+{"input_text": "Who won the 2023 Nobel Prize in Literature?", "output_text": "{\"tool\":\"search_duckduckgo\",\"input\":{\"query\":\"2023 Nobel Prize in Literature winner\"}}"}
+{"input_text": "How tall is Mount Everest?", "output_text": "{\"tool\":\"search_duckduckgo\",\"input\":{\"query\":\"height of Mount Everest in meters\"}}"}
+{"input_text": "What is the current price of Ethereum?", "output_text": "{\"tool\":\"search_duckduckgo\",\"input\":{\"query\":\"current Ethereum price USD\"}}"}
+{"input_text": "When was the iPhone 15 released?", "output_text": "{\"tool\":\"search_duckduckgo\",\"input\":{\"query\":\"iPhone 15 release date\"}}"}
+{"input_text": "Who is the president of France?", "output_text": "{\"tool\":\"search_duckduckgo\",\"input\":{\"query\":\"current president of France\"}}"}
+{"input_text": "What causes solar eclipses?", "output_text": "{\"tool\":\"search_duckduckgo\",\"input\":{\"query\":\"how do solar eclipses happen\"}}"}
+{"input_text": "Find the population of Brazil in 2024.", "output_text": "{\"tool\":\"search_duckduckgo\",\"input\":{\"query\":\"Brazil population 2024\"}}"}
+{"input_text": "What are the side effects of ibuprofen?", "output_text": "{\"tool\":\"search_duckduckgo\",\"input\":{\"query\":\"ibuprofen side effects Mayo Clinic\"}}"}
+{"input_text": "How does photosynthesis work?", "output_text": "{\"tool\":\"search_duckduckgo\",\"input\":{\"query\":\"photosynthesis process for kids\"}}"}
+{"input_text": "What time does the New York Stock Exchange open?", "output_text": "{\"tool\":\"search_duckduckgo\",\"input\":{\"query\":\"NYSE opening time EST\"}}"}
+{"input_text": "Who invented the telephone?", "output_text": "{\"tool\":\"search_duckduckgo\",\"input\":{\"query\":\"who invented the telephone Alexander Bell\"}}"}
+{"input_text": "What is the tallest building in the world?", "output_text": "{\"tool\":\"search_duckduckgo\",\"input\":{\"query\":\"tallest building in the world 2024\"}}"}
+{"input_text": "Explain quantum computing in simple terms.", "output_text": "{\"tool\":\"search_duckduckgo\",\"input\":{\"query\":\"quantum computing explained simply\"}}"}
+{"input_text": "What languages are spoken in Switzerland?", "output_text": "{\"tool\":\"search_duckduckgo\",\"input\":{\"query\":\"official languages of Switzerland\"}}"}
+{"input_text": "When is the next full moon?", "output_text": "{\"tool\":\"search_duckduckgo\",\"input\":{\"query\":\"next full moon date and time\"}}"}
+{"input_text": "What is the weather in Tokyo today?", "output_text": "{\"tool\":\"search_duckduckgo\",\"input\":{\"query\":\"today's weather in Tokyo Japan\"}}"}
+{"input_text": "Who won the 2022 FIFA World Cup?", "output_text": "{\"tool\":\"search_duckduckgo\",\"input\":{\"query\":\"2022 FIFA World Cup winner\"}}"}
+{"input_text": "What is the speed of light?", "output_text": "{\"tool\":\"search_duckduckgo\",\"input\":{\"query\":\"speed of light in m/s\"}}"}
+{"input_text": "How many countries are in the European Union?", "output_text": "{\"tool\":\"search_duckduckgo\",\"input\":{\"query\":\"number of EU member states 2024\"}}"}
+{"input_text": "What is the chemical formula for water?", "output_text": "{\"tool\":\"search_duckduckgo\",\"input\":{\"query\":\"chemical formula of water H2O\"}}"}
+{"input_text": "What movies are coming out this year?", "output_text": "{\"tool\":\"search_duckduckgo\",\"input\":{\"query\":\"upcoming movies 2024 release dates\"}}"}
+{"input_text": "How do I get a visa for Japan as a US citizen?", "output_text": "{\"tool\":\"search_duckduckgo\",\"input\":{\"query\":\"Japan tourist visa requirements for US citizens\"}}"}
+{"input_text": "What is the square root of 144?", "output_text": "{\"tool\":\"search_duckduckgo\",\"input\":{\"query\":\"square root of 144 calculation\"}}"}
+{"input_text": "Tell me about the Mars Perseverance rover mission.", "output_text": "{\"tool\":\"search_duckduckgo\",\"input\":{\"query\":\"NASA Perseverance rover Mars mission update\"}}"}
+{"input_text": "What are the health benefits of drinking green tea?", "output_text": "{\"tool\":\"search_duckduckgo\",\"input\":{\"query\":\"green tea health benefits WebMD\"}}"}
+{"input_text": "Who is the CEO of SpaceX?", "output_text": "{\"tool\":\"search_duckduckgo\",\"input\":{\"query\":\"SpaceX CEO Elon Musk\"}}"}
+{"input_text": "What is the largest desert in the world?", "output_text": "{\"tool\":\"search_duckduckgo\",\"input\":{\"query\":\"largest desert in the world by area\"}}"}
+{"input_text": "How does a blockchain work?", "output_text": "{\"tool\":\"search_duckduckgo\",\"input\":{\"query\":\"how blockchain technology works explained\"}}"}
+{"input_text": "What time zone is London in?", "output_text": "{\"tool\":\"search_duckduckgo\",\"input\":{\"query\":\"London time zone GMT or BST\"}}"}
+{"input_text": "Find the release date of the PlayStation 5 in Japan.", "output_text": "{\"tool\":\"search_duckduckgo\",\"input\":{\"query\":\"PS5 release date Japan\"}}"}
+{"input_text": "What are the symptoms of the flu?", "output_text": "{\"tool\":\"search_duckduckgo\",\"input\":{\"query\":\"common flu symptoms CDC\"}}"}
+{"input_text": "Summarize the plot of Interstellar.", "output_text": "{\"tool\":\"search_duckduckgo\",\"input\":{\"query\":\"Interstellar movie plot summary\"}}"}
+{"input_text": "What is the tallest mountain in the world?", "output_text": "{\"tool\":\"search_duckduckgo\",\"input\":{\"query\":\"tallest mountain in the world\"}}"}
+{"input_text": "Who is the current Prime Minister of Japan?", "output_text": "{\"tool\":\"search_duckduckgo\",\"input\":{\"query\":\"current Prime Minister of Japan\"}}"}
+{"input_text": "What's the latest version of Python released in 2024?", "output_text": "{\"tool\":\"search_duckduckgo\",\"input\":{\"query\":\"latest Python version 2024\"}}"}
+{"input_text": "How does nuclear fusion work?", "output_text": "{\"tool\":\"search_duckduckgo\",\"input\":{\"query\":\"how does nuclear fusion work explained\"}}"}
+{"input_text": "What time is the next solar eclipse?", "output_text": "{\"tool\":\"search_duckduckgo\",\"input\":{\"query\":\"next solar eclipse date and time\"}}"}
+{"input_text": "List the top 5 universities in the world for computer science.", "output_text": "{\"tool\":\"search_duckduckgo\",\"input\":{\"query\":\"top universities computer science 2024\"}}"}
+{"input_text": "What are the symptoms of long COVID?", "output_text": "{\"tool\":\"search_duckduckgo\",\"input\":{\"query\":\"long COVID symptoms CDC\"}}"}
+{"input_text": "When does Apple typically release new iPhones?", "output_text": "{\"tool\":\"search_duckduckgo\",\"input\":{\"query\":\"Apple iPhone release schedule\"}}"}
+{"input_text": "What is the GDP of India in 2024?", "output_text": "{\"tool\":\"search_duckduckgo\",\"input\":{\"query\":\"India GDP 2024 estimate\"}}"}
+{"input_text": "Who won the 2024 Academy Award for Best Picture?", "output_text": "{\"tool\":\"search_duckduckgo\",\"input\":{\"query\":\"2024 Oscar Best Picture winner\"}}"}
+{"input_text": "Explain the war in Ukraine in simple terms.", "output_text": "{\"tool\":\"search_duckduckgo\",\"input\":{\"query\":\"Ukraine war summary for beginners\"}}"}
+{"input_text": "What is the current exchange rate of USD to EUR?", "output_text": "{\"tool\":\"search_duckduckgo\",\"input\":{\"query\":\"USD to EUR exchange rate today\"}}"}
+{"input_text": "How many people live in New York City?", "output_text": "{\"tool\":\"search_duckduckgo\",\"input\":{\"query\":\"New York City population 2024\"}}"}
+{"input_text": "Read the contents of notes.txt on my desktop.", "output_text": "{\"tool\":\"read_file\",\"input\":{\"path\":\"notes.txt\"}}"}
+{"input_text": "Open and show me the content of resume.pdf.", "output_text": "{\"tool\":\"read_file\",\"input\":{\"path\":\"resume.pdf\"}}"}
+{"input_text": "What's inside the file todo.md?", "output_text": "{\"tool\":\"read_file\",\"input\":{\"path\":\"todo.md\"}}"}
+{"input_text": "I need to read the config.json file in the project folder.", "output_text": "{\"tool\":\"read_file\",\"input\":{\"path\":\"project/config.json\"}}"}
+{"input_text": "Write a summary to summary.txt on the desktop.", "output_text": "{\"tool\":\"write_file\",\"input\":{\"path\":\"summary.txt\",\"content\":\"Summary will go here.\"}}"}
+{"input_text": "Save the meeting notes to meeting_2024-04-05.txt.", "output_text": "{\"tool\":\"write_file\",\"input\":{\"path\":\"meeting_2024-04-05.txt\",\"content\":\"Meeting notes will be saved here.\"}}"}
+{"input_text": "Update the README.md with the latest instructions.", "output_text": "{\"tool\":\"write_file\",\"input\":{\"path\":\"README.md\",\"content\":\"Updated instructions will be written here.\"}}"}
+{"input_text": "Save this list as tasks.md.", "output_text": "{\"tool\":\"write_file\",\"input\":{\"path\":\"tasks.md\",\"content\":\"- Task 1\\n- Task 2\\n- Task 3\"}}"}
+{"input_text": "What files are on my desktop?", "output_text": "{\"tool\":\"list_directory\",\"input\":{\"path\":\".\"}}"}
+{"input_text": "List all files in the Documents folder.", "output_text": "{\"tool\":\"list_directory\",\"input\":{\"path\":\"Documents\"}}"}
+{"input_text": "Show me what's in the project/src directory.", "output_text": "{\"tool\":\"list_directory\",\"input\":{\"path\":\"project/src\"}}"}
+{"input_text": "Are there any .env files in the app folder?", "output_text": "{\"tool\":\"list_directory\",\"input\":{\"path\":\"app\"}}"}
+{"input_text": "Search for files containing 'password' on the desktop.", "output_text": "{\"tool\":\"search_files\",\"input\":{\"query\":\"password\"}}"}
+{"input_text": "Find all files related to budget.", "output_text": "{\"tool\":\"search_files\",\"input\":{\"query\":\"budget\"}}"}
+{"input_text": "Look for any file named config.json.", "output_text": "{\"tool\":\"search_files\",\"input\":{\"query\":\"config.json\",\"directory\":\".\"}}"}
+{"input_text": "Search for 'API key' in the project directory.", "output_text": "{\"tool\":\"search_files\",\"input\":{\"query\":\"API key\",\"directory\":\"project\"}}"}
+{"input_text": "Read the log file from yesterday: app.log.", "output_text": "{\"tool\":\"read_file\",\"input\":{\"path\":\"app.log\"}}"}
+{"input_text": "Write the output to results.csv.", "output_text": "{\"tool\":\"write_file\",\"input\":{\"path\":\"results.csv\",\"content\":\"data1,data2,data3\"}}"}
+{"input_text": "List everything in the Downloads folder.", "output_text": "{\"tool\":\"list_directory\",\"input\":{\"path\":\"Downloads\"}}"}
+{"input_text": "Show me the contents of index.html.", "output_text": "{\"tool\":\"read_file\",\"input\":{\"path\":\"index.html\"}}"}
+{"input_text": "Save the HTML code to page.html.", "output_text": "{\"tool\":\"write_file\",\"input\":{\"path\":\"page.html\",\"content\":\"<html>\\n<head><title>Test</title></head>\\n<body><h1>Hello</h1></body>\\n</html>\"}}"}
+{"input_text": "What's in the settings folder?", "output_text": "{\"tool\":\"list_directory\",\"input\":{\"path\":\"settings\"}}"}
+{"input_text": "Search for 'error' in logs directory.", "output_text": "{\"tool\":\"search_files\",\"input\":{\"query\":\"error\",\"directory\":\"logs\"}}"}
+{"input_text": "I want to read the instructions.md file.", "output_text": "{\"tool\":\"read_file\",\"input\":{\"path\":\"instructions.md\"}}"}
+{"input_text": "Create a new empty file called draft.md.", "output_text": "{\"tool\":\"write_file\",\"input\":{\"path\":\"draft.md\",\"content\":\"\"}}"}
+{"input_text": "Are there any PDFs on the desktop?", "output_text": "{\"tool\":\"list_directory\",\"input\":{\"path\":\".\"}}"}
+{"input_text": "Find files about Q4 report.", "output_text": "{\"tool\":\"search_files\",\"input\":{\"query\":\"Q4 report\"}}"}
+{"input_text": "Read the database connection string from config.txt.", "output_text": "{\"tool\":\"read_file\",\"input\":{\"path\":\"config.txt\"}}"}
+{"input_text": "Save the JSON data to output.json.", "output_text": "{\"tool\":\"write_file\",\"input\":{\"path\":\"output.json\",\"content\":\"{\\\"status\\\": \\\"success\\\", \\\"data\\\": []}\"}}"}
+{"input_text": "What's in the tmp/ folder?", "output_text": "{\"tool\":\"list_directory\",\"input\":{\"path\":\"tmp\"}}"}
+{"input_text": "Search for 'todo' in filenames or content.", "output_text": "{\"tool\":\"search_files\",\"input\":{\"query\":\"todo\"}}"}
+{"input_text": "Open the script.py file for editing.", "output_text": "{\"tool\":\"read_file\",\"input\":{\"path\":\"script.py\"}}"}
+{"input_text": "Write the final version to publish.md.", "output_text": "{\"tool\":\"write_file\",\"input\":{\"path\":\"publish.md\",\"content\":\"Final version ready for publication.\"}}"}
+{"input_text": "Read this article and summarize the main findings: https://example.com/climate-study-2024  ", "output_text": "{\"tool\":\"fetch_url\",\"input\":{\"url\":\"https://example.com/climate-study-2024  \",\"query\":\"Summarize the main findings of this article\"}}"}
+{"input_text": "I want to know the price and specs of the laptop on this page: https://example.com/gaming-laptop  ", "output_text": "{\"tool\":\"fetch_url\",\"input\":{\"url\":\"https://example.com/gaming-laptop  \",\"query\":\"Extract the price and technical specifications of the laptop\"}}"}
+{"input_text": "What are the top 5 recommendations in this blog post? https://example.com/ai-tips  ", "output_text": "{\"tool\":\"fetch_url\",\"input\":{\"url\":\"https://example.com/ai-tips  \",\"query\":\"List the top 5 recommendations from this blog post\"}}"}
+{"input_text": "Get the release date and platforms for the game mentioned here: https://example.com/new-game-announced  ", "output_text": "{\"tool\":\"fetch_url\",\"input\":{\"url\":\"https://example.com/new-game-announced  \",\"query\":\"What is the release date and which platforms will it be available on?\"}}"}
+{"input_text": "This article talks about a new drug trial. What were the results? https://example.com/drug-trial-phase3  ", "output_text": "{\"tool\":\"fetch_url\",\"input\":{\"url\":\"https://example.com/drug-trial-phase3  \",\"query\":\"What were the results of the drug trial?\"}}"}
+{"input_text": "I need the author's contact email and affiliation from this research paper page: https://example.com/paper-2024  ", "output_text": "{\"tool\":\"fetch_url\",\"input\":{\"url\":\"https://example.com/paper-2024  \",\"query\":\"Find the author's contact email and institutional affiliation\"}}"}
+{"input_text": "Is this product in stock? Check this link and tell me: https://example.com/outdoor-speaker  ", "output_text": "{\"tool\":\"fetch_url\",\"input\":{\"url\":\"https://example.com/outdoor-speaker  \",\"query\":\"Is this product currently in stock?\"}}"}
+{"input_text": "What time is the event happening? Get it from this page: https://example.com/concert-info  ", "output_text": "{\"tool\":\"fetch_url\",\"input\":{\"url\":\"https://example.com/concert-info  \",\"query\":\"What time does the event start?\"}}"}
+{"input_text": "Summarize the return policy on this store's page: https://example.com/returns-policy  ", "output_text": "{\"tool\":\"fetch_url\",\"input\":{\"url\":\"https://example.com/returns-policy  \",\"query\":\"Summarize the return policy in 3 bullet points\"}}"}
+{"input_text": "Extract the recipe ingredients only from this cooking blog: https://example.com/vegan-cake  ", "output_text": "{\"tool\":\"fetch_url\",\"input\":{\"url\":\"https://example.com/vegan-cake  \",\"query\":\"List only the ingredients used in the recipe\"}}"}
+{"input_text": "Read the content of config.json on the desktop.", "output_text": "{\"tool\":\"read_file\",\"input\":{\"path\":\"config.json\"}}"}
+{"input_text": "Save these notes to meeting_notes.txt.", "output_text": "{\"tool\":\"write_file\",\"input\":{\"path\":\"meeting_notes.txt\",\"content\":\"Discussion points: Project timeline, budget, team roles.\"}}"}
+{"input_text": "What files are in the Projects folder?", "output_text": "{\"tool\":\"list_directory\",\"input\":{\"path\":\"Projects\"}}"}
+{"input_text": "I need to see what's in todo.md.", "output_text": "{\"tool\":\"read_file\",\"input\":{\"path\":\"todo.md\"}}"}
+{"input_text": "Create a new file called draft.md with placeholder text.", "output_text": "{\"tool\":\"write_file\",\"input\":{\"path\":\"draft.md\",\"content\":\"# Draft Document\\n\\nThis is a placeholder for future content.\"}}"}
+{"input_text": "List everything in the Downloads directory.", "output_text": "{\"tool\":\"list_directory\",\"input\":{\"path\":\"Downloads\"}}"}
+{"input_text": "Search for any file containing 'password' in the auth folder.", "output_text": "{\"tool\":\"search_files\",\"input\":{\"query\":\"password\",\"directory\":\"auth\"}}"}
+{"input_text": "Write the API response to data.json.", "output_text": "{\"tool\":\"write_file\",\"input\":{\"path\":\"data.json\",\"content\":\"{\\\"result\\\": \\\"success\\\", \\\"items\\\": []}\"}}"}
+{"input_text": "What’s in the scripts/ directory?", "output_text": "{\"tool\":\"list_directory\",\"input\":{\"path\":\"scripts\"}}"}
+{"input_text": "Find all files related to billing in the last week.", "output_text": "{\"tool\":\"search_files\",\"input\":{\"query\":\"billing\"}}"}

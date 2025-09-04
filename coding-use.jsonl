@@ -1,0 +1,94 @@
+{"input_text":"Write a Python function to reverse a string.","output_text":"def reverse_string(s):\n    return s[::-1]"}
+{"input_text":"Create a function that checks if a number is prime.","output_text":"def is_prime(n):\n    if n < 2:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True"}
+{"input_text":"Read a text file and count the number of lines.","output_text":"def count_lines(filename):\n    with open(filename, 'r') as f:\n        return len(f.readlines())"}
+{"input_text":"Write a script to print the current date and time.","output_text":"from datetime import datetime\nprint(datetime.now())"}
+{"input_text":"Convert a dictionary to JSON and save it to a file.","output_text":"import json\ndata = {'name': 'Alice', 'age': 30}\nwith open('data.json', 'w') as f:\n    json.dump(data, f)"}
+{"input_text":"Fetch data from a public API and print the status code.","output_text":"import requests\nresponse = requests.get('https://httpbin.org/get')\nprint(response.status_code)"}
+{"input_text":"Write a function to calculate the factorial of a number using recursion.","output_text":"def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    return n * factorial(n - 1)"}
+{"input_text":"Remove duplicates from a list while preserving order.","output_text":"def remove_duplicates(lst):\n    seen = set()\n    result = []\n    for item in lst:\n        if item not in seen:\n            seen.add(item)\n            result.append(item)\n    return result"}
+{"input_text":"Check if a string is a palindrome, ignoring case.","output_text":"def is_palindrome(s):\n    cleaned = s.lower()\n    return cleaned == cleaned[::-1]"}
+{"input_text":"Write a function that returns the largest number in a list.","output_text":"def max_in_list(lst):\n    if not lst:\n        return None\n    return max(lst)"}
+{"input_text":"Count the frequency of each character in a string.","output_text":"def char_frequency(s):\n    freq = {}\n    for char in s:\n        freq[char] = freq.get(char, 0) + 1\n    return freq"}
+{"input_text":"Write a function to merge two dictionaries.","output_text":"def merge_dicts(a, b):\n    return {**a, **b}"}
+{"input_text":"Generate a list of squares of numbers from 1 to 10 using list comprehension.","output_text":"squares = [x**2 for x in range(1, 11)]"}
+{"input_text":"Write a context manager that times the execution of a code block.","output_text":"from time import time\nclass Timer:\n    def __enter__(self):\n        self.start = time()\n        return self\n    def __exit__(self, *args):\n        print(f\"Time: {time() - self.start:.2f}s\")"}
+{"input_text":"Parse a CSV file and print the first 5 rows.","output_text":"import csv\nwith open('data.csv', 'r') as f:\n    reader = csv.reader(f)\n    for i, row in enumerate(reader):\n        if i >= 5:\n            break\n        print(row)"}
+{"input_text":"Write a function that returns the Fibonacci sequence up to n terms.","output_text":"def fibonacci(n):\n    seq = []\n    a, b = 0, 1\n    for _ in range(n):\n        seq.append(a)\n        a, b = b, a + b\n    return seq"}
+{"input_text":"Replace all spaces in a string with underscores.","output_text":"def replace_spaces(s):\n    return s.replace(' ', '_')"}
+{"input_text":"Write a function to find the common elements in two lists.","output_text":"def common_elements(a, b):\n    return list(set(a) & set(b))"}
+{"input_text":"Write a script to create a directory if it doesn't exist.","output_text":"import os\nif not os.path.exists('my_folder'):\n    os.makedirs('my_folder')"}
+{"input_text":"Write a function that accepts variable arguments and returns their sum.","output_text":"def sum_all(*args):\n    return sum(args)"}
+{"input_text":"Reverse the words in a sentence.","output_text":"def reverse_words(sentence):\n    return ' '.join(sentence.split()[::-1])"}
+{"input_text":"Write a function to check if two strings are anagrams.","output_text":"def are_anagrams(s1, s2):\n    return sorted(s1.lower()) == sorted(s2.lower())"}
+{"input_text":"Write a class to represent a BankAccount with deposit and withdraw methods.","output_text":"class BankAccount:\n    def __init__(self, balance=0):\n        self.balance = balance\n    def deposit(self, amount):\n        self.balance += amount\n    def withdraw(self, amount):\n        if amount <= self.balance:\n            self.balance -= amount\n        else:\n            print('Insufficient funds')"}
+{"input_text":"Read a JSON file and print its contents.","output_text":"import json\nwith open('data.json', 'r') as f:\n    data = json.load(f)\n    print(data)"}
+{"input_text":"Write a function to calculate the average of a list of numbers.","output_text":"def average(lst):\n    return sum(lst) / len(lst) if lst else 0"}
+{"input_text":"Write a generator that yields even numbers up to n.","output_text":"def even_numbers(n):\n    for i in range(0, n+1, 2):\n        yield i"}
+{"input_text":"Write a function to find the longest word in a sentence.","output_text":"def longest_word(sentence):\n    words = sentence.split()\n    return max(words, key=len) if words else ''"}
+{"input_text":"Write a script to rename all .txt files to .log in a folder.","output_text":"import os\nfor filename in os.listdir('.'):\n    if filename.endswith('.txt'):\n        os.rename(filename, filename[:-4] + '.log')"}
+{"input_text":"Write a function that returns True if all elements in a list are unique.","output_text":"def all_unique(lst):\n    return len(lst) == len(set(lst))"}
+{"input_text":"Write a function to convert Celsius to Fahrenheit.","output_text":"def celsius_to_fahrenheit(c):\n    return (c * 9/5) + 32"}
+{"input_text":"Write a decorator that prints the function name before execution.","output_text":"def print_name(func):\n    def wrapper(*args, **kwargs):\n        print(f\"Running {func.__name__}\")\n        return func(*args, **kwargs)\n    return wrapper"}
+{"input_text":"Write a function to flatten a nested list.","output_text":"def flatten(lst):\n    result = []\n    for item in lst:\n        if isinstance(item, list):\n            result.extend(flatten(item))\n        else:\n            result.append(item)\n    return result"}
+{"input_text":"Write a script to send an email using smtplib.","output_text":"import smtplib\nserver = smtplib.SMTP('smtp.gmail.com', 587)\nserver.starttls()\nserver.login('you@gmail.com', 'password')\nserver.sendmail('you@gmail.com', 'to@gmail.com', 'Subject: Hi\\n\\nBody')\nserver.quit()"}
+{"input_text":"Write a function to find the second largest number in a list.","output_text":"def second_largest(lst):\n    unique = list(set(lst))\n    unique.sort()\n    return unique[-2] if len(unique) >= 2 else None"}
+{"input_text":"Write a function that splits a list into chunks of size n.","output_text":"def chunk_list(lst, n):\n    return [lst[i:i+n] for i in range(0, len(lst), n)]"}
+{"input_text":"Write a function to calculate the area of a circle given the radius.","output_text":"import math\ndef circle_area(radius):\n    return math.pi * radius ** 2"}
+{"input_text":"Write a script to download an image from a URL.","output_text":"import requests\nurl = 'https://example.com/image.jpg'\nwith open('image.jpg', 'wb') as f:\n    f.write(requests.get(url).content)"}
+{"input_text":"Write a function to check if a list is sorted in ascending order.","output_text":"def is_sorted(lst):\n    return all(lst[i] <= lst[i+1] for i in range(len(lst)-1))"}
+{"input_text":"Write a function to remove all vowels from a string.","output_text":"def remove_vowels(s):\n    return ''.join(c for c in s if c.lower() not in 'aeiou')"}
+{"input_text":"Write a function that returns the sum of digits in a number.","output_text":"def sum_digits(n):\n    return sum(int(d) for d in str(n) if d.isdigit())"}
+{"input_text":"Write a function to get the current working directory.","output_text":"import os\nprint(os.getcwd())"}
+{"input_text":"Write a function that returns the intersection of two lists.","output_text":"def list_intersection(a, b):\n    return [x for x in a if x in b]"}
+{"input_text":"Write a function to convert a list of strings to uppercase.","output_text":"def to_uppercase(lst):\n    return [s.upper() for s in lst]"}
+{"input_text":"Write a function to find the key with the maximum value in a dictionary.","output_text":"def max_key(d):\n    return max(d, key=d.get) if d else None"}
+{"input_text":"Write a script to list all files in a directory.","output_text":"import os\nfor f in os.listdir('.'):\n    if os.path.isfile(f):\n        print(f)"}
+{"input_text":"Write a function to check if a year is a leap year.","output_text":"def is_leap_year(year):\n    return year % 4 == 0 and (year % 100 != 0 or year % 400 == 0)"}
+{"input_text":"Write a function to generate a random password of length 8.","output_text":"import string, random\ndef random_password():\n    chars = string.ascii_letters + string.digits\n    return ''.join(random.choice(chars) for _ in range(8))"}
+{"input_text":"Write a function to count how many times a substring appears in a string.","output_text":"def count_substring(s, sub):\n    return s.count(sub)"}
+{"input_text":"Write a function to transpose a matrix (list of lists).","output_text":"def transpose(matrix):\n    return [list(row) for row in zip(*matrix)]"}
+{"input_text":"Write a function that returns the first non-repeating character in a string.","output_text":"def first_non_repeating(s):\n    for char in s:\n        if s.count(char) == 1:\n            return char\n    return None"}
+{"input_text":"Write a function to sort a dictionary by its values.","output_text":"def sort_dict_by_value(d):\n    return dict(sorted(d.items(), key=lambda item: item[1]))"}
+{"input_text":"Write a function to calculate the distance between two points (x1,y1) and (x2,y2).","output_text":"import math\ndef distance(p1, p2):\n    return math.sqrt((p2[0]-p1[0])**2 + (p2[1]-p1[1])**2)"}
+{"input_text":"Write a function to remove whitespace from the start and end of a string.","output_text":"def trim(s):\n    return s.strip()"}
+{"input_text":"Write a function that returns the number of days between two dates.","output_text":"from datetime import datetime\ndef days_between(d1, d2):\n    delta = abs((d2 - d1).days)\n    return delta"}
+{"input_text":"Write a function to find all indices of a value in a list.","output_text":"def find_indices(lst, value):\n    return [i for i, x in enumerate(lst) if x == value]"}
+{"input_text":"Write a function to merge two sorted lists into one sorted list.","output_text":"def merge_sorted(a, b):\n    return sorted(a + b)"}
+{"input_text":"Write a function to check if a string contains only digits.","output_text":"def is_numeric(s):\n    return s.isdigit()"}
+{"input_text":"Write a function to get the file extension from a filename.","output_text":"def get_extension(filename):\n    return filename.split('.')[-1]"}
+{"input_text":"Write a function to calculate compound interest.","output_text":"def compound_interest(principal, rate, time, n):\n    return principal * (1 + rate/n) ** (n * time)"}
+{"input_text":"Write a function to find the mode (most frequent item) in a list.","output_text":"from collections import Counter\ndef mode(lst):\n    if not lst:\n        return None\n    count = Counter(lst)\n    return max(count, key=count.get)"}
+{"input_text":"Write a function to rotate a list to the right by n positions.","output_text":"def rotate_right(lst, n):\n    if not lst:\n        return lst\n    n = n % len(lst)\n    return lst[-n:] + lst[:-n]"}
+{"input_text":"Write a function to validate an email address format.","output_text":"import re\ndef is_valid_email(email):\n    pattern = r'^[\\w.-]+@[\\w.-]+\\.[a-zA-Z]{2,}$'\n    return re.match(pattern, email) is not None"}
+{"input_text":"Write a function to get the current IP address.","output_text":"import requests\ndef get_ip():\n    return requests.get('https://api.ipify.org').text"}
+{"input_text":"Write a function to find the greatest common divisor (GCD) of two numbers.","output_text":"import math\ndef gcd(a, b):\n    return math.gcd(a, b)"}
+{"input_text":"Write a function to convert a list of tuples into a dictionary.","output_text":"def tuples_to_dict(tuples_list):\n    return dict(tuples_list)"}
+{"input_text":"Write a function to check if a number is a perfect square.","output_text":"def is_perfect_square(n):\n    if n < 0:\n        return False\n    root = int(n ** 0.5)\n    return root * root == n"}
+{"input_text":"Write a function to get the day of the week for a given date.","output_text":"from datetime import datetime\ndef day_of_week(year, month, day):\n    return datetime(year, month, day).strftime('%A')"}
+{"input_text":"Write a function to remove all occurrences of a value from a list.","output_text":"def remove_value(lst, value):\n    return [x for x in lst if x != value]"}
+{"input_text":"Write a function to calculate the volume of a sphere given radius.","output_text":"import math\ndef sphere_volume(radius):\n    return (4/3) * math.pi * radius ** 3"}
+{"input_text":"Write a function to generate all permutations of a string.","output_text":"from itertools import permutations\ndef string_perms(s):\n    return [''.join(p) for p in permutations(s)]"}
+{"input_text":"Write a function to find the median of a list of numbers.","output_text":"def median(lst):\n    if not lst:\n        return None\n    sorted_lst = sorted(lst)\n    n = len(sorted_lst)\n    mid = n // 2\n    return sorted_lst[mid] if n % 2 == 1 else (sorted_lst[mid-1] + sorted_lst[mid]) / 2"}
+{"input_text":"Write a function to convert seconds to HH:MM:SS format.","output_text":"def seconds_to_hms(seconds):\n    h = seconds // 3600\n    m = (seconds % 3600) // 60\n    s = seconds % 60\n    return f\"{h:02}:{m:02}:{s:02}\""}
+{"input_text":"Write a function to check if a string is a valid IPv4 address.","output_text":"def is_valid_ip(ip):\n    parts = ip.split('.')\n    if len(parts) != 4:\n        return False\n    for part in parts:\n        if not part.isdigit() or not 0 <= int(part) <= 255 or (part[0] == '0' and len(part) > 1):\n            return False\n    return True"}
+{"input_text":"Write a function to find all even numbers in a list.","output_text":"def get_evens(lst):\n    return [x for x in lst if x % 2 == 0]"}
+{"input_text":"Write a function to count the number of files in a directory.","output_text":"import os\ndef count_files(directory='.'):\n    return len([f for f in os.listdir(directory) if os.path.isfile(os.path.join(directory, f))])"}
+{"input_text":"Write a function to calculate the nth triangular number.","output_text":"def triangular(n):\n    return n * (n + 1) // 2"}
+{"input_text":"Write a function to get the first 10 Fibonacci numbers.","output_text":"def first_10_fib():\n    a, b = 0, 1\n    fib = []\n    for _ in range(10):\n        fib.append(a)\n        a, b = b, a + b\n    return fib"}
+{"input_text":"Write a function to remove punctuation from a string.","output_text":"import string\ndef remove_punct(s):\n    return s.translate(str.maketrans('', '', string.punctuation))"}
+{"input_text":"Write a function to check if a list contains any duplicates.","output_text":"def has_duplicates(lst):\n    return len(lst) != len(set(lst))"}
+{"input_text":"Write a function to get the size of a file in bytes.","output_text":"import os\ndef file_size(filename):\n    return os.path.getsize(filename)"}
+{"input_text":"Write a function to find the longest string in a list.","output_text":"def longest_string(lst):\n    return max(lst, key=len) if lst else None"}
+{"input_text":"Write a function to convert a binary string to decimal.","output_text":"def bin_to_dec(binary_str):\n    return int(binary_str, 2)"}
+{"input_text":"Write a function to generate a multiplication table for a number up to 10.","output_text":"def multiplication_table(n):\n    return [n * i for i in range(1, 11)]"}
+{"input_text":"Write a function to find the sum of all even numbers in a list.","output_text":"def sum_evens(lst):\n    return sum(x for x in lst if x % 2 == 0)"}
+{"input_text":"Write a function to get the current username.","output_text":"import getpass\nprint(getpass.getuser())"}
+{"input_text":"Write a function to check if a number is positive, negative, or zero.","output_text":"def sign(n):\n    if n > 0:\n        return 'positive'\n    elif n < 0:\n        return 'negative'\n    else:\n        return 'zero'"}
+{"input_text":"Write a function to sort a list of dictionaries by a specific key.","output_text":"def sort_by_key(dict_list, key):\n    return sorted(dict_list, key=lambda x: x[key])"}
+{"input_text":"Write a function to find the difference between two lists.","output_text":"def list_difference(a, b):\n    return [x for x in a if x not in b]"}
+{"input_text":"Write a function to capitalize the first letter of each word in a string.","output_text":"def title_case(s):\n    return s.title()"}
+{"input_text":"Write a function to calculate the perimeter of a rectangle.","output_text":"def rectangle_perimeter(length, width):\n    return 2 * (length + width)"}
+{"input_text":"Write a function to get the current time in ISO format.","output_text":"from datetime import datetime\nprint(datetime.now().isoformat())"}
+{"input_text":"Write a function to check if a string starts with a vowel.","output_text":"def starts_with_vowel(s):\n    return s.lower().startswith(tuple('aeiou')) if s else False"}
+{"input_text":"Write a function to find the smallest missing positive integer in a list.","output_text":"def smallest_missing_positive(nums):\n    nums = set(nums)\n    n = 1\n    while n in nums:\n        n += 1\n    return n"}
+{"input_text":"Write a function to extract all email addresses from a string using regex.","output_text":"import re\ndef extract_emails(text):\n    pattern = r'\\b[\\w.-]+@[\\w.-]+\\.\\w+\\b'\n    return re.findall(pattern, text)"}
